@@ -1,0 +1,38 @@
+.DS_STORE
+*~
+/keyrings/live/secring.gpg
+/stackfiles/staging.yml
+/stackfiles/production.yml
+/stackfiles/development.yml
+/secrets/android.jks
+/secrets/awscn.pem
+/secrets/ios.production.p12
+/secrets/ios.staging.p12
+/secrets/database.seed.sql
+/secrets/ios.sandbox.p12
+/secrets/apple.id.sq.sa.png
+/secrets/ssl.private.key
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+
+# Dependency directory
+node_modules
+
+# Environment Variables
+.env
+
+# Database setup
+.pgpass
+
+# Dev env
+.idea
+*.iml
+
+# Dynamic documentation
+docs/
